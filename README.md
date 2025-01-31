@@ -69,4 +69,4 @@ Compilador GCC
 📜 Licença
 Este projeto está sob a licença MIT. Você pode usá-lo e modificá-lo livremente.
 
-📌 Autor: andré waldige
+
