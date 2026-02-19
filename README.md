@@ -1,24 +1,3 @@
-# 💰 Cálculo de Salário Líquido (INSS & IRRF)
-
-![C](https://img.shields.io/badge/Language-C-blue.svg)
-![HTML5](https://img.shields.io/badge/Web-HTML5-orange.svg)
-![License](https://img.shields.io/badge/License-MIT-green.svg)
-
-Este projeto é uma ferramenta completa para o cálculo de salário líquido no Brasil. Ele aplica de forma precisa as **alíquotas progressivas** do INSS e as faixas do Imposto de Renda (IRRF) atualizadas.
-
-> 🚀 **Acesse a versão Web: [CLIQUE AQUI PARA TESTAR]**
-
----
-
-## 📌 Funcionalidades
-
-O sistema processa o salário bruto e detalha todos os descontos obrigatórios:
-- **Desconto INSS:** Cálculo progressivo baseado nas faixas de 7,5% a 14% (com teto máximo).
-- **Desconto IRRF:** Cálculo sobre a base líquida (Salário - INSS) com parcelas dedutíveis.
-- **Detalhamento:** Exibe o valor de cada imposto separadamente e o salário final.
-
----
-
 ## 📜 Regras de Cálculo (Tabelas 2026)
 
 ### 1. INSS (Previdência Social)
@@ -33,7 +12,7 @@ O cálculo é feito por faixas acumulativas:
 | **Acima de 8.157,41** | **Teto Máximo (R$ 970,00)** |
 
 ### 2. Imposto de Renda (IRRF)
-Calculado após a dedução do INSS:
+Calculado após a dedução do INSS ou aplicação do desconto simplificado:
 
 | Base de Cálculo (R$) | Alíquota (%) | Dedução (R$) |
 | :--- | :--- | :--- |
@@ -47,17 +26,21 @@ Calculado após a dedução do INSS:
 
 ## 📂 Como executar
 
-Este repositório oferece duas formas de uso:
-
 ### 🌐 Versão Web (Interface Gráfica)
-Basta abrir o arquivo `index.html` em qualquer navegador ou acessar pelo link do GitHub Pages configurado neste repositório.
+https://awaldige.github.io/calculo-de-inss-e-imposto-de-renda/
+
+📸 Prévia
+
+![IMG_1645](https://github.com/user-attachments/assets/4c300971-63cf-4426-8808-dd61f4d2a492)
+![IMG_1647](https://github.com/user-attachments/assets/9592b228-5d23-4dcb-a8c7-668637f30290)
+![IMG_1648](https://github.com/user-attachments/assets/acfbfab8-19e9-437b-b4d9-60ea9388f922)
+
+
 
 ### 💻 Versão Terminal (Linguagem C)
-Para rodar o código-fonte original em C:
-
 1. **Clone o repositório:**
    ```bash
-   git clone [https://github.com/awaldige/calculo-de-inss-e-imposto-de-renda.git](https://github.com/awaldige/calculo-de-inss-e-imposto-de-renda.git)
+   git clone (https://github.com/awaldige/calculo-de-inss-e-imposto-de-renda.git)
    cd calculo-de-inss-e-imposto-de-renda
 Compile:
 
@@ -70,9 +53,11 @@ Bash
 🛠 Tecnologias
 Linguagem C: Lógica de processamento e cálculos estruturados.
 
-HTML5/CSS3: Interface responsiva para a web.
+HTML5/CSS3: Interface moderna, responsiva e com efeitos visuais.
 
-JavaScript: Engine de cálculo para a versão online.
+JavaScript: Engine de cálculo dinâmico para a versão online.
 
 📜 Licença
 Este projeto está sob a licença MIT. Sinta-se à vontade para clonar, estudar e sugerir melhorias!
+
+Desenvolvido por awaldige.
