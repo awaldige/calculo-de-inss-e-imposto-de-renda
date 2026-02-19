@@ -51,7 +51,7 @@ Clone o repositório ou copie o código para um arquivo .c:
 bash
 Copiar
 Editar
-git clone https://github.com/awaldige/seu-repositorio.git
+git clone https://github.com/awaldige/calculo-de-inss-e-imposto-de-renda.git
 cd seu-repositorio
 Compile o código usando GCC:
 bash
