@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Salário Líquido</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h2>💰 Calculadora de Salário</h2>
+        <p>Referência: Tabelas 2026</p>
+    </header>
+    
+    <div class="form-group">
+        <label for="salario">Salário Bruto (R$)</label>
+        <input type="number" id="salario" placeholder="Ex: 4500.00" step="0.01">
+    </div>
+
+    <button onclick="calcular()">Calcular Agora</button>
+
+    <div id="resultado" class="result-box" style="display: none;">
+        <div class="line">
+            <span>INSS</span>
+            <span id="res-inss" class="val"></span>
+        </div>
+        <div class="line">
+            <span>IRRF</span>
+            <span id="res-ir" class="val"></span>
+        </div>
+        <hr>
+        <div class="line total">
+            <span>Salário Líquido</span>
+            <span id="res-liquido"></span>
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
