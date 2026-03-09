@@ -1,12 +1,13 @@
 :root {
-    --primary: #4f46e5;
-    --primary-hover: #4338ca;
-    --success: #10b981;
-    --danger: #ef4444;
-    --text-main: #1e293b;
-    --text-muted: #64748b;
-    --bg-gradient: linear-gradient(135deg, #e2e8f0 0%, #cbd5e1 100%);
-    --card-bg: rgba(255, 255, 255, 0.95);
+    /* Cores extraídas da imagem Calculadora Fiscal.jpg */
+    --primary: #1a73e8;       /* Azul principal do ícone */
+    --primary-hover: #1557b0;
+    --success: #2ecc71;       /* Verde do gráfico no ícone */
+    --danger: #e74c3c;
+    --text-main: #202124;
+    --text-muted: #5f6368;
+    --bg-gradient: linear-gradient(135deg, #f8f9fa 0%, #e8f0fe 100%);
+    --card-bg: rgba(255, 255, 255, 0.98);
 }
 
 body {
@@ -164,4 +165,5 @@ hr {
     color: var(--success);
     background: transparent;
     padding: 0;
+
 }
