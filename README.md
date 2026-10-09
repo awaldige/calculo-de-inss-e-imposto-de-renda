@@ -119,14 +119,14 @@ No Windows, pelo terminal:
 
 ## 👨‍💻 Desenvolvimento
 
-AW TECHNOLOGY — André Waldige
+👨‍💻 Autor
+André Waldige — AW TECHNOLOGY
 
-Projeto desenvolvido para demonstrar conhecimentos em desenvolvimento Full Stack, construção de interfaces, integração com APIs e modelagem de dados relacionais.
+GitHub: (https://github.com/awaldige)
 
-GitHub: @awaldige
+Portfólio: (https://andre-waldige.vercel.app)
 
-Portfólio: andre-waldige.vercel.app
-
+E-mail: awaldige@gmail.com
 
 
 
