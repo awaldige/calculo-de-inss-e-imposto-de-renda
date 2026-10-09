@@ -119,7 +119,6 @@ No Windows, pelo terminal:
 
 ## 👨‍💻 Desenvolvimento
 
-👨‍💻 Autor
 André Waldige — AW TECHNOLOGY
 
 GitHub: (https://github.com/awaldige)
